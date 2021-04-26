@@ -36,7 +36,7 @@ def remove_packs(list_file):  # CREATE TEXT FILE:
     ]
     package_selections = inquirer.prompt(package_object)
     packs_for_removal = package_selections.get('packages_name')
-    i = 0 #Probably don't need it
+    i = 0
 
     # This is just confirmation that at least one package has been selected:
     if len(packs_for_removal) == 0:
@@ -52,7 +52,6 @@ def remove_packs(list_file):  # CREATE TEXT FILE:
             print("\n***Nothing to remove, back to menu...\n")
         elif selection != "y" or selection != "n":
             print("\n***Bad input, only 'y' or 'n'.\n")
-    #return items
 
 
 print("### Package Remover Interface for adb ###")
