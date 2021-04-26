@@ -40,7 +40,6 @@ https://developer.android.com/studio/run/emulator
 1. Download
 2. pip install inquirer
 3. python pack_remover.py
-
 - *Note*: On first run, the program will create a _package_list.txt_ file in your home folder (Linux) with the list of packages. You don't have to (and should not) modify this file directly.
 
 ## How to use
