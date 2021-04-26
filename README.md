@@ -48,16 +48,13 @@ https://developer.android.com/studio/run/emulator
 - With the space bar, select the package(s) you want to remove.
 - Press Enter to remove the package(s).
 - Confirm with "y" or cancel with "n".
-##### Screenshot
 
 ### Option 2: Search packages by keyword
 - When selected, you are prompted to input a search term. You can search any part of a Java package hierarchy which takes the form of: _com.example.mypackage_. Some of these packages have the name of the app or the company in them, you can use that as a search term.
 - After that, you proceed with instructions for option 1.
-##### Screenshot
 
 ### Option 3: Spawn adb shell
 - You can spawn an adb shell in case you quickly need other functionality from ADB.
-##### Screenshot
 
 ### Option 4: Exit
 - Option 4 makes coffee.
