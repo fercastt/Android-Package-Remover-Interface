@@ -41,19 +41,23 @@ https://developer.android.com/studio/run/emulator
 2. pip install inquirer
 3. python pack_remover.py
 - *Note*: On first run, the program will create a _package_list.txt_ file in your home folder (Linux) with the list of packages. You don't have to (and should not) modify this file directly.
+<img src="images/pri_0th.png" width="375" height="100">
 
 ## How to use
 ### Option 1: List all packages and select for removal
 - With the space bar, select the package(s) you want to remove.
 - Press Enter to remove the package(s).
 - Confirm with "y" or cancel with "n".
+<img src="images/pri_1st.png" width="350" height="250">
 
 ### Option 2: Search packages by keyword
 - When selected, you are prompted to input a search term. You can search any part of a Java package hierarchy which takes the form of: _com.example.mypackage_. Some of these packages have the name of the app or the company in them, you can use that as a search term.
 - After that, you proceed with instructions for option 1.
+<img src="images/pri_2nd.png" width="350" height="175">
 
 ### Option 3: Spawn adb shell
 - You can spawn an adb shell in case you quickly need other functionality from ADB.
+<img src="images/pri_3rd.png" width="325">
 
 ### Option 4: Exit
 - Option 4 makes coffee.
