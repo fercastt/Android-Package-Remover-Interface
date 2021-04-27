@@ -54,14 +54,14 @@ def remove_packs(list_file):  # CREATE TEXT FILE:
             print("\n***Bad input, only 'y' or 'n'.\n")
 
 
-print("### Package Remover Interface for adb ###")
+print("### Package Remover Interface for ADB ###")
 results = 0
 while results != 4:
     choose = [
         inquirer.List('menu',
                       message="Please, choose an option",
                       choices=[('List all packages and select for removal', '1'), ('Search packages by keyword', '2'),
-                               ('Spawn adb shell', '3'), ('Exit', '4')],
+                               ('Spawn ADB shell', '3'), ('Exit', '4')],
                       ),
     ]
     choice = inquirer.prompt(choose)
