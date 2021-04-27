@@ -9,7 +9,7 @@
 - ADB's _pm uninstaller_ is useful to remove those applications that come preinstalled on your smartphone by your provider or one of the FAANGs :vampire:
 
 ## Disclaimer
-- You can absolutely break you smartphone by removing packages that the system relies upon. Please do your research on the packages you want to remove. If you break your smartphone, a factory data reset should be performed to go back to a useful state but everything will, of course, be lost.
+- You can absolutely break your smartphone by removing packages that the system relies upon. Please do your research on the packages you want to remove. If you break your smartphone, a factory data reset should be performed to go back to a useful state but everything will, of course, be lost.
 - As an alternative, you can create an Android emulator in Android Studio or the Android SDK.
 https://developer.android.com/studio/run/emulator
 - I'm not associated with Android in any way. They are not associated with the PRI nor are responsible for anything you do with it. PRI is not intended to replace ADB.
