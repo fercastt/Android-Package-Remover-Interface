@@ -1,8 +1,8 @@
 # Name
-- Package Remover Interface for Android Debugger Bridge (PRI for ADB)
+- Package Remover Interface for Android Debug Bridge (PRI for ADB)
 
 ## Motivation
-- When using Android Debugger Bridge(ADB) to remove packages, you have to type the command "adb shell pm uninstall --user 0 _package_" for each package you want to remove. 
+- When using Android Debug Bridge(ADB) to remove packages, you have to type the command "adb shell pm uninstall --user 0 _package_" for each package you want to remove. 
 
 ## Description
 - Now you can select with the space bar, as many packages as you want, and remove them simultaneously. You can also search for a specific package.
@@ -24,11 +24,11 @@ https://developer.android.com/studio/run/emulator
 
 ## Features
 - Option 1: List all packages and select for removal
-	- You can remove packages as with adb but many at once.
+	- You can remove packages as with ADB but many at once.
 - Option 2: Search packages by keyword
     - You can also search for a specific package and all instances will be shown and removable.
-- Option 3: Spawn adb shell
-    - In case you need an adb shell in the same window.
+- Option 3: Spawn ADB shell
+    - In case you need an ADB shell in the same window.
 - Option 4: Exit
 
 ## Smartphone Setup
@@ -55,8 +55,8 @@ https://developer.android.com/studio/run/emulator
 - After that, you proceed with instructions for option 1.
 <img src="images/pri_2nd.png" width="350" height="175">
 
-### Option 3: Spawn adb shell
-- You can spawn an adb shell in case you quickly need other functionality from ADB.
+### Option 3: Spawn ADB shell
+- You can spawn an ADB shell in case you quickly need other functionality from ADB.
 <img src="images/pri_3rd.png" width="325">
 
 ### Option 4: Exit
