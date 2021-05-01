@@ -18,6 +18,7 @@ https://developer.android.com/studio/run/emulator
 ## Requirements
 - Linux (Kernel 5.10/Debian)
 - Python 3.9.2
+- Android SDK (ADB)
 
 ## Dependencies
 - Inquirer 2.7.0 -- Inquirer is used so we can apply the checkbox functionality to select multiple packages.
