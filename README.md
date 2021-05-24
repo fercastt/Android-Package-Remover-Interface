@@ -2,23 +2,27 @@
 - Package Remover Interface for Android Debug Bridge (PRI for ADB)
 
 ## Motivation
-- When using Android Debug Bridge(ADB) to remove packages, you have to type the command "adb shell pm uninstall --user 0 _package_" for each package you want to remove. 
+- When using Android Debug Bridge(ADB) to remove packages, you have to type the command "adb shell pm uninstall --user 0 _package_" for each package you want to remove.
 
 ## Description
-- Now you can select with the space bar, as many packages as you want, and remove them simultaneously. You can also search for a specific package.
-- ADB's _pm uninstaller_ is useful to remove those applications that come preinstalled on your smartphone by your provider or one of the FAANGs :vampire:
+- With the space bar, you can select as many packages as you want, and remove them simultaneously. You can also search for a specific package.
+- ADB's _pm uninstall_ is useful to remove those applications that come preinstalled on your smartphone by your provider or one of the FAANGs :vampire:
 
 ## Disclaimer
 - You can absolutely break your smartphone by removing packages that the system relies upon. Please do your research on the packages you want to remove. If you break your smartphone, a factory data reset should be performed to go back to a useful state but everything will, of course, be lost.
-- As an alternative, you can create an Android emulator in Android Studio or the Android SDK.
-https://developer.android.com/studio/run/emulator
-- I'm not associated with Android in any way. They are not associated with the PRI nor are responsible for anything you do with it. PRI is not intended to replace ADB.
+- As alternatives to using a real smartphone or tablet you can create an emulator in Android Studio:
+	- https://developer.android.com/studio  ...AND/OR...
+	- https://developer.android.com/studio/run/emulator
+- I'm not associated with Android in any way. They are not associated with PRI nor are responsible for anything you do with it. PRI is not intended to replace ADB.
 - Android is not economically responsible for your phone or tablet if you break it.
 
 ## Requirements
 - Linux (Kernel 5.10/Debian)
 - Python 3.9.2
-- Android SDK (ADB)
+- Android Debug Bridge (ADB) (Contained in the Android SDK Platform-Tools package) https://developer.android.com/studio/releases/platform-tools (Linux version, 	maybe even Mac but I have not tested it).
+- Or you can install ADB directly from the command line:	
+	- sudo apt-get install android-tools-adb  ...OR...
+	- sudo apt-get install adb
 
 ## Dependencies
 - Inquirer 2.7.0 -- Inquirer is used so we can apply the checkbox functionality to select multiple packages.
@@ -37,7 +41,7 @@ https://developer.android.com/studio/run/emulator
 2. USB Debugging must be enabled in, the now available, Developer Options.
 3. The first time you connect your smartphone to the computer (after USB Debugging), you will be prompted to accept an RSA key fingerprint, to confirm that USB Debugging is allowed.
 
-## How to install/run
+## How to install / run
 1. Download
 2. pip install inquirer
 3. python pack_remover.py
@@ -46,6 +50,7 @@ https://developer.android.com/studio/run/emulator
 
 ## How to use
 ### Option 1: List all packages and select for removal
+- Navigate up and down the list with the arrow keys.
 - With the space bar, select the package(s) you want to remove.
 - Press Enter to remove the package(s).
 - Confirm with "y" or cancel with "n".
