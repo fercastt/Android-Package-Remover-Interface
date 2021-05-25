@@ -5,14 +5,13 @@
 - When using Android Debug Bridge(ADB) to remove packages, you have to type the command "adb shell pm uninstall --user 0 _package_" for each package you want to remove.
 
 ## Description
-- With the space bar, you can select as many packages as you want, and remove them simultaneously. You can also search for a specific package.
+- Now, with the space bar, you can select as many packages as you want, and remove them simultaneously. You can also search for a specific package.
 - ADB's _pm uninstall_ is useful to remove those applications that come preinstalled on your smartphone by your provider or one of the FAANGs :vampire:
 
 ## Disclaimer
 - You can absolutely break your smartphone by removing packages that the system relies upon. Please do your research on the packages you want to remove. If you break your smartphone, a factory data reset should be performed to go back to a useful state but everything will, of course, be lost.
 - As alternatives to using a real smartphone or tablet you can create an emulator in Android Studio:
-	- https://developer.android.com/studio  ...AND/OR...
-	- https://developer.android.com/studio/run/emulator
+	- https://developer.android.com/studio  ...AND/OR...	- https://developer.android.com/studio/run/emulator
 - I'm not associated with Android in any way. They are not associated with PRI nor are responsible for anything you do with it. PRI is not intended to replace ADB.
 - Android is not economically responsible for your phone or tablet if you break it.
 
@@ -42,7 +41,7 @@
 3. The first time you connect your smartphone to the computer (after USB Debugging), you will be prompted to accept an RSA key fingerprint, to confirm that USB Debugging is allowed.
 
 ## How to install / run
-1. Download
+1. Clone or download package
 2. pip install inquirer
 3. python pack_remover.py
 - *Note*: On first run, the program will create a _package_list.txt_ file in your home folder (Linux) with the list of packages. You don't have to (and should not) modify this file directly.
