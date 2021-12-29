@@ -18,7 +18,7 @@
 ## Requirements
 - Linux (Kernel 5.10/Debian)
 - Python 3.9.2
-- Android Debug Bridge (ADB) (Contained in the Android SDK Platform-Tools package) https://developer.android.com/studio/releases/platform-tools (Linux version, 	maybe even Mac but I have not tested it).
+- Android Debug Bridge (ADB) (Contained in the Android SDK Platform-Tools package) https://developer.android.com/studio/releases/platform-tools (Linux version)
 - Or you can install ADB directly from the command line:	
 	- sudo apt-get install android-tools-adb  ...OR...
 	- sudo apt-get install adb
