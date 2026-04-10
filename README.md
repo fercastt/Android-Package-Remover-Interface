@@ -12,8 +12,7 @@
 - You can absolutely break your smartphone by removing packages that the system relies upon. Please do your research on the packages you want to remove. If you break your smartphone, a factory data reset should be performed to go back to a useful state but everything will, of course, be lost.
 - As alternatives to using a real smartphone or tablet you can create an emulator in Android Studio:
 	- https://developer.android.com/studio  ...AND/OR...	- https://developer.android.com/studio/run/emulator
-- I'm not associated with Android in any way. They are not associated with PRI nor are responsible for anything you do with it. PRI is not intended to replace ADB.
-- Android is not economically responsible for your phone or tablet if you break it.
+- No one is economically responsible for your phone or tablet if you break it.
 
 ## Requirements
 - Linux (Kernel 5.10/Debian)
@@ -30,9 +29,9 @@
 - Option 1: List all packages and select for removal
 	- You can remove packages as with ADB but many at once.
 - Option 2: Search packages by keyword
-    - You can also search for a specific package and all instances will be shown and removable.
+    - You can also search for a specific package. All instances with the search term will be shown and removable.
 - Option 3: Spawn ADB shell
-    - In case you need an ADB shell in the same window.
+    - In case you need an ADB shell for deeper functionality in the same window.
 - Option 4: Exit
 
 ## Smartphone Setup
@@ -42,8 +41,8 @@
 
 ## How to install / run
 1. Clone or download package
-2. pip install inquirer
-3. python pack_remover.py
+2. Run: pip install inquirer
+3. On the commnad line, run: python pack_remover.py
 - *Note*: On first run, the program will create a _package_list.txt_ file in your home folder (Linux) with the list of packages. You don't have to (and should not) modify this file directly.
 <img src="images/pri_0th.png" width="375" height="100">
 
@@ -65,7 +64,7 @@
 <img src="images/pri_3rd.png" width="325">
 
 ### Option 4: Exit
-- Option 4 makes coffee.
+- Option 4 Quits.
 
 ## Next version
-- It would be awesome if this could be adapted for the web. Maybe in a while.
+- It would be great if this could be adapted for the web with DJango or Flask, maybe.
